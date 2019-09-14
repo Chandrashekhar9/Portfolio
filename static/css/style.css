@@ -1,0 +1,157 @@
+html {
+  scroll-behavior: smooth;
+}
+body{
+	font-family: sans-serif;
+}
+.main_intro_tag{
+
+	height: 300px;
+	background-color: #3D3E40;
+}
+.image_tag{
+	position: absolute;
+	top: -100px;
+	width: 450px; 
+	height: 500px;
+}
+.spacer{
+	height: 200px;
+}
+.summry {
+	color: white;
+	height: auto;
+}
+#h3tag{
+	font-size: 45px;
+	position: relative;
+	left: -50px;
+}
+.hello_span{
+	position: relative;
+	left: -280px;
+}
+#Shekhar{
+	color: #279AF1;
+	cursor: pointer;
+}
+#ptag{
+	padding: 3px;
+
+}
+#myskills{
+	color: white;
+}
+#abox{
+	border: 4px outset #3D3E40;
+	height: 550px;
+	width: 500px;
+	position: absolute;
+	top: -120px;
+	left: -10px;
+}
+.social_icon{
+	position: absolute;
+	left: -10px;
+	top: 250px;
+}
+.social_icon ul li{
+	list-style: none;
+	text-align: center;
+
+}
+.social_icon ul li a{
+		color: #636568 ;
+		border: 1px solid #636568;
+		padding:5px;
+		margin: 10px;
+		border-radius: 50%;
+		display: block;
+}
+.social_icon ul li a:hover{
+	color:white;
+	border-color: white;
+}
+.social_icon_2 img{
+	width: 50px;
+	height: 50px;
+	margin: 20px;
+}
+.social_icon_2 a:hover img{
+	transform: translateY(-10px);
+}
+#Hire_me_section{
+	width: 100%;
+	height: 220px;
+	color: white;
+	text-align: center;
+	padding-top: 70px;
+}
+
+.journey_box{
+	border-left: 4px solid #3D3E40;
+	position: relative;
+	right: -180px;
+}
+.journey_box ul li{
+	font-size: 80px;
+	color: green;
+	position: relative;
+	top: -60px;
+}
+#lists{
+	font-size: 20px;
+}
+.about_ptag1{
+	font-size: 25px;
+	margin-top: 20px;
+}
+.about_ptag2{
+	font-size: 25px;
+}
+.hr_tag{
+	border: 1px solid #636568;
+}
+.service_box{
+	background-color: #E1E8ED;
+	padding: 10px;
+	margin-top: 20px;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+.service_box .fas{
+	margin: 0 10px;
+	font-size: 20px;
+}
+.service_box span{
+	margin: 3px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.service_box p{
+	font-size: 15px;
+	margin-top: 15px;
+	color: #777;
+}
+.service_box:hover{
+	background-color: #3D3E40;
+	color: white;
+}
+.service_box:hover p{
+	color: #E1E8ED;
+}
+.my_footer .fas{
+	margin: 0 10px;
+	font-size: 20px;
+}
+.my_footer span{
+	margin: 3px;
+	font-size: 20px;
+}
+.my_footer_list{
+	margin-top: 50px;
+	color: #E1E8ED;
+}
+#aboutme{
+	overflow: hidden;
+}
